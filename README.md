@@ -24,7 +24,7 @@ Make certain to look up any requirements or catches for installing Python to you
 
 To download VS Code, visit the [downloads](https://code.visualstudio.com/download) page. Select the download button for your specific operating system.
 
-For Windows, you will end up with a `.exe` isntallation wizard. Run it, and follow the prompts.
+For Windows, you will end up with a `.exe` installation wizard. Run it, and follow the prompts.
 
 For Mac, you will end up with a `.dmg` installer.
 
