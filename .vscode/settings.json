@@ -1,0 +1,19 @@
+{
+    // Turn off built-in AI features (Copilot chat, inline suggestions, and so on).
+    "chat.disableAIFeatures": true,
+
+    // Pylance: no AI hover summaries or AI code actions.
+    "python.analysis.aiHoverSummaries": false,
+    "python.analysis.aiCodeActions": {
+        "implementAbstractClasses": false,
+        "generateSymbol": false,
+        "convertFormatString": false
+    },
+
+    // GitHub Pull Requests: no chat or Copilot coding agent features.
+    "githubPullRequests.experimental.chat": false,
+    "githubPullRequests.experimental.useQuickChat": false,
+    "githubPullRequests.codingAgent.enabled": false,
+    "githubPullRequests.codingAgent.uiIntegration": false,
+    "githubPullRequests.codingAgent.autoCommitAndPush": false
+}

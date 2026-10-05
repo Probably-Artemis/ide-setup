@@ -1,0 +1,27 @@
+{
+    // VS Code shows a prompt to install these the first time this folder is opened.
+    // They can also be found later under Extensions > "@recommended".
+    "recommendations": [
+        // Python
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs",
+        "charliermarsh.ruff",
+        "jannchie.ruff-ignore-explainer",
+        "kevinrose.vsc-python-indent",
+        "oderwat.indent-rainbow",
+        "usernamehw.errorlens",
+
+        // Source control (Git and GitHub)
+        "github.vscode-pull-request-github",
+        "github.remotehub",
+        "ms-vscode.remote-repositories",
+        "ms-vscode.azure-repos",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "howardzuo.vscode-git-tags",
+        "adam-bender.commit-message-editor",
+        "ziyasal.vscode-open-in-github"
+    ]
+}
