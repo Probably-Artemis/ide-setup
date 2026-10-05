@@ -12,7 +12,7 @@ This repository is for those who are just getting into python development and ei
 
 ## Base requirements (Python)
 
-This guide presumes you have Python installed, at least version 3.13. You should keep your installed version of Python up to date unless it breaks installed libraries and packages. As of time of writing, the most recent version of Python is version 3.14, although 3.15 should be releasing in only a few weeks.
+This guide presumes you have Python installed, at least version 3.13. You should keep your installed version of Python up to date unless it breaks installed libraries and packages. As of time of writing, the most recent version of Python is version 3.14, although 3.15 should be releasing in only a few days.
 
 To install python, visit the [official download page](https://www.python.org/downloads/), which should automatically detect your operating system and offer you the specific file you need to download.
 
