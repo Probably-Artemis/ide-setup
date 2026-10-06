@@ -121,4 +121,4 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 Please see [CONTRIBUTING.md](https://github.com/Probably-Artemis/ide-setup/blob/main/CONTRIBUTING.md) for the full guidelines to contribution.
 
-Any part of my instructions which were unclear, unspecific, or otherwise not beginner friendly warrants the opening of an issue.
+Any part of my instructions which is unclear, unspecific, or otherwise not beginner friendly warrants the opening of an issue.
