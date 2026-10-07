@@ -138,11 +138,11 @@ If you can take the below less manual route, I strongly advise doing so, as it c
 
 ## Setting up VS Code (less manual)
 
-Download this repository to the location you'll be doing your work. You may do this either by downloading [the .zip](https://github.com/Probably-Artemis/ide-setup/archive/refs/heads/main.zip) and decompressing it as you would any compressed archive, or by cloning it. To clone:
+Download this repository to the location you'll be doing your work. You may do this by downloading [the .zip](https://github.com/Probably-Artemis/ide-setup/releases/latest/download/ide-setup.zip) and decompressing it as you would any compressed archive. If you want the full guide, clone the repository instead. To clone:
 ```bash
 git clone https://github.com/Probably-Artemis/ide-setup.git
 ```
-Once you have the files, open the workspace in VS Code. You may do this from a new VS Code window by navigating to *File > Open Folder*, then selecting your newly downloaded files.
+Once you have the files, open the workspace in VS Code. You may do this from a new VS Code window by navigating to *File > Open Folder*, then selecting the `ide-setup` folder. You may wish to rename the folder, I recommend doing so before opening it in VS Code.
 
 When you first open the workspace, VS Code will ask you if you trust the authors. Select "Trust", so settings can take effect. You should then receive a popup offering to install all suggested extensions. Accept the prompt.
 
