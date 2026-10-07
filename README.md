@@ -18,7 +18,34 @@ Items will be added here as they are mentioned and as definition becomes necessa
 6. Command Palette
     1. The Command Palette is where all Commands are found.<sup>[[VS Code](https://code.visualstudio.com/api/ux-guidelines/command-palette)]</sup>
         1. To open VS Code's Command Palette, use the keyboard shortcut `Ctrl+Shift+P`, or `Cmd+Shift+P` on Mac. Alternatively, one may open the Command Palette from the View section of the top bar of VS Code.
-    2. A Command Palette is a bar one may open in certain softwares 
+    2. A Command Palette is a bar one may open in certain softwares which can be used to activate certain commands, change some settings, and activate predefined sets of instructions provided by the software.
+7. Git terminology
+    1. [W3Schools](https://www.w3schools.com/git/) has an in-depth guide on controlling Git from the command line, this guide also serves as a good guide to different terms.
+    2. Push
+        1. To push is to "push" commits you have made locally to the remote repository.
+    3. Pull
+        1. To pull is to "pull" changes present on the remote branch that you do not have locally. You will usually have to pull any upstream (future) changes before being able to push any of your own.
+    4. Commit
+        1. To commit is to take all staged changes and associate them with a note of what you changed called a "commit message". You have to type your commit message yourself, and it should be detailed enough that you'll be able to tell what you did when looking back.
+        2. Commit message best practices (from [W3Schools](https://www.w3schools.com/git/git_commit.asp?remote=github#:~:text=Commit%20Message%20Best%20Practices))
+            1. Keep the first line of commit messages short, 50 characters or less.
+            2. Use the imperative mood ("add feature" instead of "added feature")
+            3. Leave a blank line after the first line, then explain in more detail on the third line if necessary.
+            4. Describe why the change was made, not just what changed.
+    5. Changes, and staging them
+        1. In Git, changes are decently self-explanatory, they are differences in files between the most recent commit that touched those files, and the current files.
+        2. Staging a change or set of changes marks those changes to be committed on the next commit. You can stage all of your changes at once, or if you wish to be organized, you may stage only some changes at once, so they get different commits.
+    6. Clone
+        1. To clone a repository is to download a repository you do not have locally, so that you may edit it.
+    7. Branch
+        1. In Git, a branch is a separate version of your repository, sometimes likened to an alternate universe. Changes made in a branch do not effect the main branch, meaning you can safely test and iterate without risking breaking anything.
+        2. Switching your active branch is called "checking out" the chosen branch.
+    8. Merging
+        1. To merge two branches is to combine their changes back into one branch.
+        2. If different branches change the same line of a file, something called a "merge conflict" will occur, and you will have to pick which branch's changes to keep.
+    9. Pull Request
+        1. A Pull Request (or PR) is a request made by anybody who can view the repository to merge a branch they have provided with your main branch, this is how contributions are made to code on GitHub.
+        2. GitHub has a wonderful UI for handling PRs, it makes merging them very easy. If you are worried to merge two branches on your own, make your own pull request and let GitHub help you.
 
 ## Intro
 
@@ -224,13 +251,45 @@ To make sure it worked, run:
 gh auth status
 ```
 
-## Testing
+## Testing / final setup
 
 ### Python
 
 Create a file named `hello.py`, make it print hello world, and check if it runs.
 
 ### Git
+
+Publish your workspace to github by navigating to the Source Control tab in the left sidebar of VS Code, or by pressing `Ctrl+Shift+G` (`Cmd+Shift+G` on Mac). You should see some text, and two buttons. One button will offer to let you "Initialize Repository". That will not link the repository to GitHub; it will offer you local only source control. The second button should read "Publish to GitHub".
+
+When you press the Publish button, a menu should pop up in the Command Palette. You will be able to name the repository you wish to create, it will default to the name of the folder you are working in. 
+
+Below the name field, there should be two buttons, reading "Publish to GitHub <u>private</u> repository" and "Publish to GitHub <u>public</u> repository" respectively. Public repositories can be viewed by anybody on the internet, and private repositories can only be viewed by you and any collaborators you add.
+
+Once you select which repository type to create, the Command Palette will ask you what files to include in the repository. If you have a `.venv` folder, make sure *not* to include it. When you're ready, press the "OK" button. 
+
+Once VS Code has created your repo, the Source Control tab will switch to managing changes, commits, and pushes. You should get a notification to open your new repository in GitHub, click it to open the web view. If the notification does not show up, you can find your repository at `https://github.com/[GitHub username]/[repository name]`. For example, if I were to create a repository named `deleteme`, it would be at https://github.com/Probably-Artemis/deleteme.
+
+## Using the Source Control tab
+
+There are three sections of the Source Control tab, `Repositories`, `Changes`, and `Graph`.
+
+### Repositories
+
+This section shows, in order from right to left, the repository name, the branch, the Synchronize Changes button, the Create Pull Request button, and the More actions button.
+
+Clicking on the branch (will probably be named `main` by default) will give you options to create a new branch, or switch your current branch to a different local or remote branch.
+
+Clicking the Synchronize Changes button will pull any upstream changes, then push all local commits you've made that haven't yet been pushed.
+
+Clicking Create Pull Request will allow you to, as the name suggests, create a new PR right from VS Code.
+
+### Changes
+
+This section shows a field for writing your commit messages, a commit button, and a display of all changes, staged and unstaged.
+
+You cannot commit without first writing a commit message. Once you are done typing it, you can press `Ctrl+Enter` (or `Cmd+Enter` on Mac) to automatically commit all currently staged changes with your written message.
+
+
 
 # Contributing
 
