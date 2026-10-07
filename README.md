@@ -3,52 +3,52 @@
 ## Terms
 
 Items will be added here as they are mentioned and as definition becomes necessary.
-1. IDE - Integrated Development Environment
-    1. An IDE is software which provides a relatively comprehensive set of features for software development.
-2. Venv - Virtual Environment
-    1. A venv is an isolated environment for Python projects, designed to keep dependencies manageable.
-3. Terminal
+1. Terminal
     1. A terminal is a device or software program used for interfacing with a computer over text.
-4. CLI - Command Line Interface
+2. CLI - Command Line Interface
     1. A CLI is a program interacted with by typing text commands into a terminal.
-5. Git and GitHub
+3. IDE - Integrated Development Environment
+    1. An IDE is software which provides a relatively comprehensive set of features for software development.
+4. Command Palette
+    1. A Command Palette is a bar one may open in certain software which can be used to activate certain commands, change some settings, and activate predefined sets of instructions provided by the software.
+    2. The Command Palette is where all Commands are found.<sup>[[VS Code](https://code.visualstudio.com/api/ux-guidelines/command-palette)]</sup>
+        1. To open VS Code's Command Palette, use the keyboard shortcut `Ctrl+Shift+P`, or `Cmd+Shift+P` on Mac. Alternatively, one may open the Command Palette from the View section of the top bar of VS Code.
+5. Venv - Virtual Environment
+    1. A venv is an isolated environment for Python projects, designed to keep dependencies manageable.
+6. Git and GitHub
     1. Git & GitHub are not the same thing. Be careful not to confuse them.
     2. Git is a Source Control tool. It tracks the changes to your files.
     3. Git<u>**Hub**</u> is a website that stores Git projects online.
-6. Command Palette
-    1. The Command Palette is where all Commands are found.<sup>[[VS Code](https://code.visualstudio.com/api/ux-guidelines/command-palette)]</sup>
-        1. To open VS Code's Command Palette, use the keyboard shortcut `Ctrl+Shift+P`, or `Cmd+Shift+P` on Mac. Alternatively, one may open the Command Palette from the View section of the top bar of VS Code.
-    2. A Command Palette is a bar one may open in certain softwares which can be used to activate certain commands, change some settings, and activate predefined sets of instructions provided by the software.
 7. Git terminology
     1. [W3Schools](https://www.w3schools.com/git/) has an in-depth guide on controlling Git from the command line. This guide also serves as a good guide to different terms.
-    1. Repository
+    2. Repository
         1. A repository is a place which stores the complete history of your files and their changes.
         2. A remote repository is any repository not on your device, for example stored in GitHub.
         3. A local repository is the repository you have locally on your device for a given project.
-    2. Clone
+    3. Clone
         1. To clone a repository is to download a repository you do not have locally, so that you may edit it.
-    3. Changes, and staging them
-        1. In Git, changes are decently self-explanatory, they are differences in files between the most recent commit that touched those files, and the current files.
+    4. Changes, and staging them
+        1. In Git, changes are decently self-explanatory; they are differences in files between the most recent commit that touched those files, and the current files.
         2. Staging a change or set of changes marks those changes to be committed on the next commit. You can stage all of your changes at once, or if you wish to be organized, you may stage only some changes at once, so they get different commits.
         3. "Upstream changes" refers to changes which exist on the remote repository but not on your local one.
-    4. Commit
+    5. Commit
         1. To commit is to take all staged changes and associate them with a note of what you changed called a "commit message". You have to type your commit message yourself, and it should be detailed enough that you'll be able to tell what you did when looking back.
         2. Commit message best practices (from [W3Schools](https://www.w3schools.com/git/git_commit.asp?remote=github#:~:text=Commit%20Message%20Best%20Practices))
             1. Keep the first line of commit messages short, 50 characters or less.
             2. Use the imperative mood ("add feature" instead of "added feature")
             3. Leave a blank line after the first line, then explain in more detail on the third line if necessary.
             4. Describe why the change was made, not just what changed.
-    5. Push
+    6. Push
         1. To push is to "push" commits you have made locally to the remote repository.
-    6. Pull
+    7. Pull
         1. To pull is to "pull" changes present on the remote branch that you do not have locally. You will usually have to pull any upstream changes before being able to push any of your own.
-    7. Branch
+    8. Branch
         1. In Git, a branch is a separate version of your repository, sometimes likened to an alternate universe. Changes made in a branch do not affect the main branch, meaning you can safely test and iterate without risking breaking anything.
         2. Switching your active branch is called "checking out" the chosen branch.
-    8. Merging
+    9. Merging
         1. To merge two branches is to combine their changes back into one branch.
         2. If different branches change the same line of a file, something called a "merge conflict" will occur, and you will have to resolve it by picking one branch's changes, both branches' changes, or attempt to combine them.
-    9. Pull Request
+    10. Pull Request
         1. A Pull Request (or PR) is a request made by anybody who can view the repository to merge a branch they have provided with your main branch, this is how contributions are made to code on GitHub.
         2. GitHub has a wonderful UI for handling PRs, it makes merging them very easy. If you are worried to merge two branches on your own, make your own pull request and let GitHub help you.
 
