@@ -28,7 +28,7 @@ Items will be added here as they are mentioned and as definition becomes necessa
     3. Clone
         1. To clone a repository is to download a repository you do not have locally, so that you may edit it.
     4. Changes, and staging them
-        1. In Git, changes are decently self-explanatory; they are differences in files between the most recent commit that touched those files, and the current files.
+        1. In Git, changes are differences in files between the most recent commit that touched those files, and the current files.
         2. Staging a change or set of changes marks those changes to be committed on the next commit. You can stage all of your changes at once, or if you wish to be organized, you may stage only some changes at once, so they get different commits.
         3. "Upstream changes" refers to changes which exist on the remote repository but not on your local one.
     5. Commit
@@ -86,7 +86,7 @@ On Apple Silicon Macs, the installer script will provide you a couple commands w
 
 Installation process varies by operating system.
 
-For Windows, download and run the installer from [git-scm.com](https://git-scm.com/install/windows). You are likely to be given a significant amount of options to choose from. The defaults will suffice, although if prompted I would recommend setting VS Code as Git's default editor.
+For Windows, download and run the installer from [git-scm.com](https://git-scm.com/install/windows). You are likely to be given a significant number of options to choose from. The defaults will suffice, although if prompted I would recommend setting VS Code as Git's default editor.
 
 For Mac, install via Homebrew or MacPorts. The latest instructions can always be found on the [installation page](https://git-scm.com/install/mac).
 
@@ -260,7 +260,7 @@ gh auth status
 
 ### Python
 
-Create a file named `hello.py`, make it print hello world, and check if it runs.
+Create a file named `hello.py`, make it print hello world, and check if it runs. Run with the triangle run button in the upper right hand corner.
 ```python
 print("Hello World!")
 ```
@@ -283,7 +283,7 @@ Once VS Code has created your repo, the Source Control tab will switch to managi
 
 ## Using the Source Control tab
 
-There are three sections of the Source Control tab, `Repositories`, `Changes`, and `Graph`. The exact buttons and their positions may change in future updates, this guide was written in October of 2026.
+There are three sections of the Source Control tab, `Repositories`, `Changes`, and `Graph`. The exact buttons and their positions may change in future updates. This guide was written in October of 2026.
 
 ### Repositories
 
@@ -299,7 +299,7 @@ Clicking Create Pull Request will allow you to, as the name suggests, create a n
 
 This section shows a field for writing your commit messages, a commit button, and a display of all changes, staged and unstaged.
 
-You cannot commit without first writing a commit message. Once you are done typing it, you can press `Ctrl+Enter` (or `Cmd+Enter` on Mac) to automatically commit all currently staged changes with your written message.
+You cannot commit without first writing a commit message. Once you are done typing it, you can press `Ctrl+Enter` (or `Cmd+Enter` on Mac) to automatically commit all currently staged changes with your written message. If you try to commit with no staged changes, VS Code will offer to commit *all* changes.
 
 When you have commits that have not been pushed, or upstream changes that have not been pulled, the commit button will change to read "Sync Changes". Clicking it in this mode will do the same thing as pressing the Synchronize Changes button in the Repositories section.
 
